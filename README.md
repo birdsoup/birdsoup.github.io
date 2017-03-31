@@ -10,4 +10,6 @@ TODO:
 
 -make the page look better on mobile
 
+-make the pdf viewer work for mobile(should probably just link directly to the pdf if on mobile
+
 -add more to the 'about' page
