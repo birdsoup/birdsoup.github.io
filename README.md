@@ -4,6 +4,8 @@ TODO:
 
 -Add Chase Morgan to projects list
 
+-Add image of the Scarlet Alert challenge modal popup to its images
+
 -Add the controller project to projects list
 
 -fix poor formatting on projects list
