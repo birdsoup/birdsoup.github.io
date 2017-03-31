@@ -1,12 +1,10 @@
 body, html {
   margin: 0;
   overflow: hidden;
-  height: 100%;
 }
-#content-pane {
+
+#content-panel {
     height: 100%;
-    background-color: #4FC1E9;
-    text-align: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -15,5 +13,22 @@ body, html {
 }
 
 #my-picture {
-    max-width: 50%;
+    border-radius: 15%;
+    max-width: 90%;
+    max-height: 20vh;
+}
+
+.border-left {
+    border-left: 1px solid #ddd;
+}
+
+.picture-link {
+    max-width: 20%;
+    max-height: 5vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+img:hover {
+
 }

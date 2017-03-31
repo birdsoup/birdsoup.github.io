@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Chet Powers's Website</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
         <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 
@@ -15,42 +16,45 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+        <!-- My scripts for the website -->
+        <script src="static/script.js"></script>
+
         <link rel="stylesheet" href="static/customcss.css">
     </head>
 
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-3"> 
-                    <img src="http://rlv.zcache.com/light_gray_fashion_grey_color_trend_2014_blank_square_sticker-rd0c998ae1f044157847354e7f488cffb_v9i40_8byvr_512.jpg" alt="Picture of me." class="img-responsive center-block" id="my-picture"/>
+                <div class="col-xs-2" > 
+                    <br>
+                    <img src="/static/photo.jpg" alt="Picture of me." class="img-responsive center-block" id="my-picture"/>
+                    <hr>
+                    <a href="index.html" class="link"><h3 class="text-center"> &#x1F3E0; Home </h3></a>
+                    <a href="about.html" class="link"><h3 class="text-center"> &#x1F4DA; About </h3></a>
+                    <a href="projects.html" class="link"><h3 class="text-center"> &#x1F528; My Projects </h3></a>
+                    <a href="https://github.com/xPowerz/CTF-Writeups" class="link"><h3 class="text-center"> &#x1F6A9; CTF Writeups </h3></a>
+                    <a href="resume.html" class="link"><h3 class="text-center"> &#x1F4DC; Resume </h3></a>
+                    <a href="contact.html" class="link"><h3 class="text-center"> &#x1F4E7; Contact Me </h3></a>
+
+                    <hr>
+                    <div class="text-center">
+                        <a href="https://www.github.com/xpowerz"><img src="static/GitHub-Mark-120px-plus.png" class="picture-link"></a>
+                        <a href="https://www.linkedin.com/in/chet-powers-b81b1b107"><img src="static/In-2C-121px-R.png" class="picture-link"></a>
+                        <a href="https://www.devpost.com/ccpowers"><img src="static/devpost-128.png" class="picture-link"></a>
+                    </div>
+
+
 
                 </div>
 
-                <div class="col-xs-9" style="background-color: blue;" id="content-pane">fdsafd
-                    <p> 
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-
-                    </p>
+                <div class="col-xs-10 border-left" id="content-panel">
+                    <span id="content">
+                        <h3 class="text-center"> Home </h3>
+                        <hr>
+                        <h4 class="text-center"> This website is still a work in progress. </h4>
+                        <h4 class="text-center"> Welcome to my website!</h4>
+                        <h4 class="text-center"> You can find information about me, my projects, and links to my Github, Linkedin and Devpost in the sidebar to the left. </h4>
+                    </span>
                 </div>
             </div>
         </div>
