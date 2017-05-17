@@ -15,9 +15,16 @@ function load_page(pageToLoad) {
                 $('#imagemodal').modal('show');   
             }); 
         });
+        check_pdf();
+
     });    
 }
 
+function check_pdf() {
+    if( $('.pdf-viewer').css('display')=='none') {
+        document.location = "/static/resume.pdf";
+    }
+}
 
 $(document).ready(function() {
     //if loading directly to a fragment, load that page
@@ -43,16 +50,5 @@ $(document).ready(function() {
         return true;
 
     });
-    var is_mobile = false;
-
-    if( $('#pdf-viewer').css('display')=='none') {
-        is_mobile = true;       
-    }
-
-    // now i can use is_mobile to run javascript conditionally
-
-    if (is_mobile == true) {
-        document.location = "/static/resume.pdf";
-    }
-
+    check_pdf();
 });

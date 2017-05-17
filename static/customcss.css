@@ -42,5 +42,5 @@ img:hover {
     margin-bottom: -100%;
 }
 @media only screen and (max-width: 760px) {
-  #pdf-viewer { display: none; }
+  .pdf-viewer { display: none; }
 }
