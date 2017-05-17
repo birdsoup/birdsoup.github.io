@@ -37,7 +37,7 @@ $(document).ready(function() {
     //set up link handler to load new content
     $('.link').click(function() {
         //if the href contains .com it's pointing to a different domain.
-        if ($(this).attr('href').indexOf(".com") < 0 && $(this).attr('href').indexOf("/static/") >= 0) {
+        if ($(this).attr('href').indexOf(".com") < 0 && $(this).attr('href').indexOf(".html") >= 0) {
             var pageToLoad = $(this).attr('href') + ' #content';
             load_page(pageToLoad);
 
