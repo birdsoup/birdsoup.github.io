@@ -52,7 +52,7 @@ $(document).ready(function() {
     // now i can use is_mobile to run javascript conditionally
 
     if (is_mobile == true) {
-        window.location = "/static/resume.pdf";
+        document.location = "/static/resume.pdf";
     }
 
 });
