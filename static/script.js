@@ -19,7 +19,6 @@ function load_page(pageToLoad) {
 }
 
 
-
 $(document).ready(function() {
     //if loading directly to a fragment, load that page
     if (document.location.href.indexOf("#") >= 0) {
@@ -44,6 +43,16 @@ $(document).ready(function() {
         return true;
 
     });
+    var is_mobile = false;
 
+    if( $('#pdf-viewer').css('display')=='none') {
+        is_mobile = true;       
+    }
+
+    // now i can use is_mobile to run javascript conditionally
+
+    if (is_mobile == true) {
+        window.location = "/static/resume.pdf";
+    }
 
 });

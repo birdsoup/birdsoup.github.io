@@ -41,3 +41,6 @@ img:hover {
     padding-bottom: 100%;
     margin-bottom: -100%;
 }
+@media only screen and (max-width: 760px) {
+  #pdf-viewer { display: none; }
+}
