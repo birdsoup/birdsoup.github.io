@@ -1,6 +1,6 @@
 body, html, .container {
   margin: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   height: 100%;
 }
 
@@ -10,7 +10,7 @@ body, html, .container {
     top: 0;
     bottom: 0;
     right: 0;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 #my-picture {
     border-radius: 15%;
@@ -33,8 +33,8 @@ body, html, .container {
 img:hover {
 
 }
+
 .col-sm-2 {
-    overflow: hidden;
 }
 
 .col-sm-10 {
